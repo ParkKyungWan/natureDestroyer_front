@@ -1,0 +1,14 @@
+{% include 'base.html' %}
+{% load static %}
+{% block 'content' %}
+    
+    <link rel="stylesheet" href="{%static 'css/question.css'%}">
+    <div class="question big-content-box" >
+            <h1>Q1</h1><h2>일주일에 배달음식 몇 번?</h2>
+            <button class="btn" onclick="location.href='answer?num=1&result=0kg'">0번</button>
+            <button class="btn" onclick="location.href='answer?num=1&result=\'0.5kg ~ 1kg\''">1~2번</button>
+            <button class="btn" onclick="location.href='answer?num=1&result=\'1.5kg ~ 2kg\''">3~4번</button>
+            <button class="btn" onclick="location.href='answer?num=1&result=\'2.5kg ~ 3kg\''">5~6번</button>
+            <button class="btn" onclick="location.href='answer?num=1&result=\'3kg 이상\''">그 이상</button>
+    </div>
+{% endblock %}

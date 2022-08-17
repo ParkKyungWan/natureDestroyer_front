@@ -1,0 +1,46 @@
+{% include 'base.html' %}
+{% load static %}
+{% block 'content' %}
+    
+    <link rel="stylesheet" href="{%static 'css/ranking.css'%}">
+    <div class="ranking big-content-box" >
+        <h1>실시간 순위</h1>
+        <h5>가장 친 환경적인 학교 순으로 나열합니다.</h5>
+        <div class="ranking-flex">
+            <!-- 내용물은 sample입니다-->
+            <div class="ranking-item">
+                <h1>1.</h1><span class="univ" >인천대학교</span><span class="extra"> 평균 <span class="tree" >15</span> 그루 만큼의 탄소를 배출합니다</span>
+            </div>
+            <div class="ranking-item">
+                <h1>2.</h1><span class="univ" >인천대학교</span><span class="extra"> 평균 <span class="tree" >12</span> 그루 만큼의 탄소를 배출합니다</span>
+            </div>
+            <div class="ranking-item">
+                <h1>3.</h1><span class="univ" >인천대학교</span><span class="extra"> 평균 <span class="tree" >1233</span> 그루 만큼의 탄소를 배출합니다</span>
+            </div>
+            <div class="ranking-item">
+                <h1>4.</h1><span class="univ" >인천대학교</span><span class="extra"> 평균 <span class="tree" >163</span> 그루 만큼의 탄소를 배출합니다</span>
+            </div>
+            <div class="ranking-item">
+                <h1>5.</h1><span class="univ" >인천대학교</span><span class="extra"> 평균 <span class="tree" >213</span> 그루 만큼의 탄소를 배출합니다</span>
+            </div>
+            <div class="ranking-item">
+                <h1>6.</h1><span class="univ" >인천대학교</span><span class="extra"> 평균 <span class="tree" >165</span> 그루 만큼의 탄소를 배출합니다</span>
+            </div>
+            <div class="ranking-item">
+                <h1>7.</h1><span class="univ" >인천대학교</span><span class="extra"> 평균 <span class="tree" >13</span> 그루 만큼의 탄소를 배출합니다</span>
+            </div>
+            <div class="ranking-item">
+                <h1>8.</h1><span class="univ" >인천대학교</span><span class="extra"> 평균 <span class="tree" >13</span> 그루 만큼의 탄소를 배출합니다</span>
+            </div>
+            <div class="ranking-item">
+                <h1>9.</h1><span class="univ" >인천대학교</span><span class="extra"> 평균 <span class="tree" >13</span> 그루 만큼의 탄소를 배출합니다</span>
+            </div>
+            <div class="ranking-item">
+                <h1>10.</h1><span class="univ" >인천대학교</span><span class="extra"> 평균 <span class="tree" >13</span> 그루 만큼의 탄소를 배출합니다</span>
+            </div>
+
+
+        </div>
+        <button class="btn" onclick="location.href='/'"><h1>←</h1></button>
+    </div>
+{% endblock %}

@@ -1,0 +1,11 @@
+{% include 'base.html' %}
+{% load static %}
+{% block 'content' %}
+    
+    <link rel="stylesheet" href="{%static 'css/question.css'%}">
+    <div class="question big-content-box" >
+            <h1>Q8</h1><h2>이메일 정리를 하시나요?</h2>
+            <button class="btn"onclick="location.href='answer?num=8&result=훌륭합니다'">네</button>
+            <button class="btn"onclick="location.href='answer?num=8&result=앞으로는+정리해+주실래요%3f'">아니오</button>
+    </div>
+{% endblock %}

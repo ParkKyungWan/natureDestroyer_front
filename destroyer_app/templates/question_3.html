@@ -1,0 +1,12 @@
+{% include 'base.html' %}
+{% load static %}
+{% block 'content' %}
+    
+    <link rel="stylesheet" href="{%static 'css/question.css'%}">
+    <div class="question big-content-box" >
+            <h1>Q3</h1><h2>음식물이 묻은 쓰레기, 어쩌지?</h2>
+            <button class="btn"onclick="location.href='answer?num=3&result=쓰레기%20입니까?'">그냥 버린다ㅋ</button>
+            <button class="btn"onclick="location.href='answer?num=3&result=훌륭한%20지구%20지킴이'">씻어서 버린다</button>
+            <button class="btn"onclick="location.href='answer?num=3&result=%ec%a2%80%eb%a7%8c+%eb%8d%94+%eb%85%b8%ec%98%a4%eb%a0%a5..%ed%95%b4%ec%a3%bc%ec%84%b8%ec%9a%94!%0d%0a%ec%94%bb%ec%96%b4%ec%84%9c+%eb%b2%84%eb%a6%ac%eb%8a%94+%eb%b0%a9%eb%b2%95%eb%8f%84+%ec%9e%88%eb%8b%a4!'">일반쓰레기에 버린다</button>
+    </div>
+{% endblock %}
